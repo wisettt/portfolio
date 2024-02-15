@@ -1,0 +1,43 @@
+nav {
+     background-color: #0085ff;
+    
+    
+  
+     & a {
+         color: azure;
+         text-decoration: none;
+     }
+     & .container {
+         max-width: 1170px;
+         margin: 0 auto;
+     }
+     & .nav_con {
+         height: 60px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 10px;
+  
+         & ul {
+             display: flex;
+             list-style: none;
+            
+             & li {
+                 margin: 0 35px;
+             }
+         }
+         & .button {
+             width: 80px;
+             height: 50px;
+             background-color: black;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border-radius: 20px;
+             transition: 0.3s;
+             cursor: pointer;
+  
+             
+         }
+     }
+ }
